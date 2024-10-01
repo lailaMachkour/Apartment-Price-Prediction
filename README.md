@@ -1,11 +1,14 @@
 # Apartment-Price-Prediction
+
 Overview
+
 This project involves scraping apartment data from Avito (a popular online marketplace), performing data cleaning, and building a prediction model to estimate apartment prices. The project is divided into three main parts:
 Web Scraping: Extract apartment data from Avito using a custom scraping script.
 Data Cleaning: Prepare the raw dataset by handling missing values, formatting data, and feature engineering.
 Prediction Model: Apply machine learning techniques to predict apartment prices based on the cleaned dataset.
 
 Files
+
 prediction.ipynb: This notebook contains the data cleaning process and the prediction model. It includes all steps from loading the dataset to applying a machine learning algorithm to predict apartment prices.
 Appartements.csv: The dataset used for training the prediction model. This file includes raw data scraped from Avito, consisting of features like apartment location, size, price, and other relevant attributes.
 web Scraping avito.ipynb: The notebook responsible for scraping data from Avito. It automates the collection of apartment listings with features such as price, location, and other relevant parameters.
